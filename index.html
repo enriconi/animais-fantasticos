@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="menu">
+  <nav class="menu js-menu">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -19,9 +19,9 @@
     </ul>
   </nav>
 
-  <section class="grid-section animais" id="animais">
+  <section class="grid-section animais js-scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista">
+    <ul class="animais-lista js-tab-menu">
       <li><img src="img/imagem1.jpg" alt="Imagem de uma raposa"></li>
       <li><img src="img/imagem2.jpg" alt="Imagem de um esquilo"></li>
       <li><img src="img/imagem3.jpg" alt="Imagem de um urso"></li>
@@ -29,7 +29,7 @@
       <li><img src="img/imagem5.jpg" alt="Imagem de um macaco"></li>
       <li><img src="img/imagem6.jpg" alt="Imagem de um leão"></li>
     </ul>
-    <div class="animais-descricao">
+    <div class="animais-descricao js-tab-conteudo">
       <section>
         <h2>Raposa</h2>
         <p>
@@ -92,9 +92,9 @@
     </div>
   </section>
 
-  <section class="grid-section faq" id="faq">
+  <section class="grid-section faq js-scroll" id="faq">
     <h1 class="titulo">F.A.Q</h1>
-    <dl class="faq-lista">
+    <dl class="faq-lista js-accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>A idade deles varia entre 10 à 30 anos.</dd>
       <dt>Eles são fantásticos?</dt>
@@ -102,11 +102,11 @@
       <dt>Qual a diferença?</dt>
       <dd>Há uns mais calmos e uns mais bravos...</dd>
       <dt>Como proteger?</dt>
-      <dd>Deixando eles no devido espaço deles, :)</dd>
+      <dd>Respeitando o espaço deles!</dd>
     </dl>
   </section>
 
-  <section class="grid-section contato" id="contato">
+  <section class="grid-section contato js-scroll" id="contato">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="img/mapa.png" alt="Localização da empresa: Rua L.J, 100 - Sapucaia do Sul - RS">
@@ -123,5 +123,7 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 </body>
+
+<script src="script.js"></script>
 
 </html>
