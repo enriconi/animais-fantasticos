@@ -9,6 +9,8 @@ export const iniciarScrollSecoes = () => {
         const topoSecao = secao.getBoundingClientRect().top;
         const ehSecaoVisivel = topoSecao - metadeTela < 0;
         if (ehSecaoVisivel) secao.classList.add('ativo');
+        else if (secao.classList.contains('ativo'))
+          secao.classList.remove('ativo');
       });
     };
 
