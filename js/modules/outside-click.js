@@ -16,7 +16,7 @@ export const outsideClick = (elemento, eventos, callback) => {
 
   if (!elemento.hasAttribute(outside)) {
     eventos.forEach((userEvent) => {
-      html.addEventListener(userEvent, handleOutsideClick);
+      setTimeout(() => html.addEventListener(userEvent, handleOutsideClick));
     });
 
     elemento.setAttribute(outside, '');

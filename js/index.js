@@ -5,6 +5,7 @@ import { iniciarNavegacaoPorTab } from './modules/navegacao-tab.js';
 import { iniciarModal } from './modules/modal.js';
 import { iniciarTooltip } from './modules/tooltip.js';
 import { iniciarDropDownMenu } from './modules/dropdown-menu.js';
+import { iniciarMenuMobile } from './modules/menu-mobile.js';
 
 iniciarScrollSuave();
 iniciarScrollSecoes();
@@ -13,3 +14,4 @@ iniciarNavegacaoPorTab();
 iniciarModal();
 iniciarTooltip();
 iniciarDropDownMenu();
+iniciarMenuMobile();

@@ -4,7 +4,7 @@
   background-color: rgba(0, 0, 0, .5);
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: 40;
   display: none;
   justify-content: center;
   align-items: center;
@@ -17,10 +17,12 @@
 .modal {
   background-color: #FAF6ED;
   padding: 40px;
+  width: 80vh;
+  max-width: 450px;
   border: 10px solid #FB5;
   box-shadow: 0 0 0 10px #FAF6ED;
   position: relative;
-  min-width: 300px;
+  box-sizing: border-box;
 }
 
 @keyframes modal {
@@ -51,7 +53,7 @@
   background-color: #E54;
   font-size: 1.2rem;
   color: #FFF;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   outline: none;
 }
@@ -59,7 +61,7 @@
 .modal label {
   font-family: 'IBM Plex Mono', monospace;
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   margin: 1rem 0 .5rem 0;
 }
 
@@ -81,7 +83,7 @@
   font-size: 1rem;
   color: #FFF;
   margin-top: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   outline: none;
   cursor: pointer;
 }
